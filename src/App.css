@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.add-task input, .add-task textarea, .add-task select, .add-task button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.task-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.priority {
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.priority.Low {
+  color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.priority.Medium {
+  color: orange;
+}
+
+.priority.High {
+  color: red;
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters input, .filters select {
+  width: 48%;
+  margin-right: 2%;
+  padding: 5px;
+}
+
+.filters input {
+  margin-right: 0;
 }
