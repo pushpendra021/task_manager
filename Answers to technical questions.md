@@ -5,7 +5,8 @@ I spent approximately 5-6 hours on the coding test.
 One of the valuable new features in recent JavaScript versions is optional chaining. This feature makes it easier to safely access properties within deeply nested objects without running into errors if any part of the chain is undefined or null. This helps prevent issues when trying to retrieve properties that may not be present.
 
 ### Code Snippet:
-![Q2 Image](./task_manager/Q2.png)
+![Alt text](public/Q2.png)
+
 
 
 ## Q3. How would you track down a performance issue in production? Have you ever had to do this?
