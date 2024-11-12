@@ -22,4 +22,7 @@ npm -v
 npx create-react-app task_manager
 cd task_manager
 npm start
+
+
+
 ![Alt text](public/output.png)
